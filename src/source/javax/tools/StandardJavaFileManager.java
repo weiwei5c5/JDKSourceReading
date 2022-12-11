@@ -107,7 +107,7 @@ import java.util.*;
  * allowed:
  * <ul>
  *   <li>
- *     <code>file:///C:/Documents%20and%20Settings/UncleBob/BobsApp/Test.java</code>
+ *     <code>file:///C:/Documents%20and%20Settings/UncleBob/BobsApp/Main.java</code>
  *   </li>
  *   <li>
  *     <code>jar:///C:/Documents%20and%20Settings/UncleBob/lib/vendorA.jar!com/vendora/LibraryClass.class</code>
@@ -116,7 +116,7 @@ import java.util.*;
  * Whereas these are not (reason in parentheses):
  * <ul>
  *   <li>
- *     <code>file:BobsApp/Test.java</code> (the file name is relative
+ *     <code>file:BobsApp/Main.java</code> (the file name is relative
  *     and depend on the current directory)
  *   </li>
  *   <li>
@@ -125,7 +125,7 @@ import java.util.*;
  *     whereas the component after ! is legal)
  *   </li>
  *   <li>
- *     <code>Test.java</code> (this URI depends on the current
+ *     <code>Main.java</code> (this URI depends on the current
  *     directory and does not have a schema)
  *   </li>
  *   <li>

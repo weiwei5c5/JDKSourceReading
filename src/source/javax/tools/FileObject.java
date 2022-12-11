@@ -60,11 +60,11 @@ public interface FileObject {
      * Gets a user-friendly name for this file object.  The exact
      * value returned is not specified but implementations should take
      * care to preserve names as given by the user.  For example, if
-     * the user writes the filename {@code "BobsApp\Test.java"} on
+     * the user writes the filename {@code "BobsApp\Main.java"} on
      * the command line, this method should return {@code
-     * "BobsApp\Test.java"} whereas the {@linkplain #toUri toUri}
+     * "BobsApp\Main.java"} whereas the {@linkplain #toUri toUri}
      * method might return {@code
-     * file:///C:/Documents%20and%20Settings/UncleBob/BobsApp/Test.java}.
+     * file:///C:/Documents%20and%20Settings/UncleBob/BobsApp/Main.java}.
      *
      * @return a user-friendly name
      */
